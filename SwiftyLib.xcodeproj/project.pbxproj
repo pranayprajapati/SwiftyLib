@@ -11,6 +11,12 @@
 		FABB046C28C70CC1000F8701 /* SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB046128C70CC1000F8701 /* SwiftyLib.framework */; };
 		FABB047128C70CC1000F8701 /* SwiftyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB047028C70CC1000F8701 /* SwiftyLibTests.swift */; };
 		FABB047228C70CC1000F8701 /* SwiftyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FABB046428C70CC1000F8701 /* SwiftyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FABB048228C70D58000F8701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB048128C70D58000F8701 /* AppDelegate.swift */; };
+		FABB048428C70D58000F8701 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB048328C70D58000F8701 /* SceneDelegate.swift */; };
+		FABB048628C70D58000F8701 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB048528C70D58000F8701 /* ViewController.swift */; };
+		FABB048928C70D58000F8701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABB048728C70D58000F8701 /* Main.storyboard */; };
+		FABB048B28C70D59000F8701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABB048A28C70D59000F8701 /* Assets.xcassets */; };
+		FABB048E28C70D59000F8701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABB048C28C70D59000F8701 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		FABB046528C70CC1000F8701 /* SwiftyLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftyLib.docc; sourceTree = "<group>"; };
 		FABB046B28C70CC1000F8701 /* SwiftyLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABB047028C70CC1000F8701 /* SwiftyLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTests.swift; sourceTree = "<group>"; };
+		FABB047F28C70D58000F8701 /* SwiftyLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABB048128C70D58000F8701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FABB048328C70D58000F8701 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FABB048528C70D58000F8701 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FABB048828C70D58000F8701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FABB048A28C70D59000F8701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FABB048D28C70D59000F8701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FABB048F28C70D59000F8701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FABB047C28C70D58000F8701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				FABB046328C70CC1000F8701 /* SwiftyLib */,
 				FABB046F28C70CC1000F8701 /* SwiftyLibTests */,
+				FABB048028C70D58000F8701 /* SwiftyLibExamples */,
 				FABB046228C70CC1000F8701 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				FABB046128C70CC1000F8701 /* SwiftyLib.framework */,
 				FABB046B28C70CC1000F8701 /* SwiftyLibTests.xctest */,
+				FABB047F28C70D58000F8701 /* SwiftyLibExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +106,20 @@
 				FABB047028C70CC1000F8701 /* SwiftyLibTests.swift */,
 			);
 			path = SwiftyLibTests;
+			sourceTree = "<group>";
+		};
+		FABB048028C70D58000F8701 /* SwiftyLibExamples */ = {
+			isa = PBXGroup;
+			children = (
+				FABB048128C70D58000F8701 /* AppDelegate.swift */,
+				FABB048328C70D58000F8701 /* SceneDelegate.swift */,
+				FABB048528C70D58000F8701 /* ViewController.swift */,
+				FABB048728C70D58000F8701 /* Main.storyboard */,
+				FABB048A28C70D59000F8701 /* Assets.xcassets */,
+				FABB048C28C70D59000F8701 /* LaunchScreen.storyboard */,
+				FABB048F28C70D59000F8701 /* Info.plist */,
+			);
+			path = SwiftyLibExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +172,23 @@
 			productReference = FABB046B28C70CC1000F8701 /* SwiftyLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FABB047E28C70D58000F8701 /* SwiftyLibExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABB049028C70D59000F8701 /* Build configuration list for PBXNativeTarget "SwiftyLibExamples" */;
+			buildPhases = (
+				FABB047B28C70D58000F8701 /* Sources */,
+				FABB047C28C70D58000F8701 /* Frameworks */,
+				FABB047D28C70D58000F8701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyLibExamples;
+			productName = SwiftyLibExamples;
+			productReference = FABB047F28C70D58000F8701 /* SwiftyLibExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 13.3.1;
 					};
 					FABB046A28C70CC1000F8701 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					FABB047E28C70D58000F8701 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				FABB046028C70CC1000F8701 /* SwiftyLib */,
 				FABB046A28C70CC1000F8701 /* SwiftyLibTests */,
+				FABB047E28C70D58000F8701 /* SwiftyLibExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABB047D28C70D58000F8701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABB048E28C70D59000F8701 /* LaunchScreen.storyboard in Resources */,
+				FABB048B28C70D59000F8701 /* Assets.xcassets in Resources */,
+				FABB048928C70D58000F8701 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +274,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FABB047B28C70D58000F8701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABB048628C70D58000F8701 /* ViewController.swift in Sources */,
+				FABB048228C70D58000F8701 /* AppDelegate.swift in Sources */,
+				FABB048428C70D58000F8701 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,6 +293,25 @@
 			targetProxy = FABB046D28C70CC1000F8701 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FABB048728C70D58000F8701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABB048828C70D58000F8701 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FABB048C28C70D59000F8701 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABB048D28C70D59000F8701 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FABB047328C70CC1000F8701 /* Debug */ = {
@@ -349,6 +446,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,6 +474,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,6 +520,62 @@
 			};
 			name = Release;
 		};
+		FABB049128C70D59000F8701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftyLibExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socialDemo.SwiftyLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FABB049228C70D59000F8701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftyLibExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.socialDemo.SwiftyLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,6 +602,15 @@
 			buildConfigurations = (
 				FABB047928C70CC1000F8701 /* Debug */,
 				FABB047A28C70CC1000F8701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABB049028C70D59000F8701 /* Build configuration list for PBXNativeTarget "SwiftyLibExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABB049128C70D59000F8701 /* Debug */,
+				FABB049228C70D59000F8701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
