@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   # spec.description  = <<-DESC
   #                 DESC
 
-	spec.description = "This for socket chat."
+	spec.description = "This for socket chat. So we can use this pod for future use."
 
   spec.homepage     = "https://github.com/pranayprajapati/SwiftyLib"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
